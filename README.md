@@ -105,9 +105,11 @@ If you make changes in the Models and run into DB schema issues, delete the sqli
 ## Acknowledgements
 With thanks to the following Flask extensions:
 * [Flask-User-starter-app](https://github.com/lingthio/Flask-User-starter-app) was used as a starting point for this code repository.
-* [Alembic](alembic.readthedocs.org)
-* [Flask-Migrate](flask-migrate.readthedocs.org)
-* [Flask-User](pythonhosted.org/Flask-User/)
+* [Alembic](http://alembic.readthedocs.org)
+* [Flask-Migrate](http://flask-migrate.readthedocs.org)
+* [Flask-User](http://pythonhosted.org/Flask-User/)
 
-    # Please consider leaving the line above in your project's README file. Thank you.
 
+```
+Please consider leaving the line above in your project's README file. Thank you.
+```
