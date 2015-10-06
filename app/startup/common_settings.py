@@ -8,7 +8,7 @@ import os
 # ***********************************
 
 # Application settings
-APP_NAME = "AppName"
+APP_NAME = "My App Name"
 APP_SYSTEM_ERROR_SUBJECT_LINE = APP_NAME + " system error"
 
 # Flask settings
@@ -26,4 +26,3 @@ USER_ENABLE_RETYPE_PASSWORD = True  # Prompt for `retype password` in:
 USER_ENABLE_USERNAME = False  # Register and Login with username
 USER_AFTER_LOGIN_ENDPOINT = 'core.user_page'
 USER_AFTER_LOGOUT_ENDPOINT = 'core.home_page'
-

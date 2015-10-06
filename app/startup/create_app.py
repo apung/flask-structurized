@@ -65,6 +65,7 @@ def create_app(extra_config_settings={}):
                                user_profile_view_function=user_profile_page,
     )
 
+
     # Load all blueprints with their manager commands, models and views
     from app import core
 
