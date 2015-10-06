@@ -1,6 +1,7 @@
-# flask-structurized
+# Flask-User starter app
 
-This code base serves as a great starting point to write your next Flask application.
+This code base serves as a great starting point to write your next Flask application  
+(With or without Flask-User)
 
 ## Developer benefits
 * Tested on Python 2.7, 3.3, and 3.4
@@ -104,10 +105,12 @@ If you make changes in the Models and run into DB schema issues, delete the sqli
 
 ## Acknowledgements
 With thanks to the following Flask extensions:
-* [Flask-User-starter-app](https://github.com/lingthio/Flask-User-starter-app) was used as a starting point for this code repository.
+
 * [Alembic](alembic.readthedocs.org)
 * [Flask-Migrate](flask-migrate.readthedocs.org)
 * [Flask-User](pythonhosted.org/Flask-User/)
+
+[Flask-User-starter-app](https://github.com/lingthio/Flask-User-starter-app) was used as a starting point for this code repository.
 
     # Please consider leaving the line above in your project's README file. Thank you.
 

@@ -10,3 +10,7 @@ db = SQLAlchemy(app)            # Setup Flask-SQLAlchemy
 manager = Manager(app)          # Setup Flask-Script
 
 from app.startup.create_app import create_app
+
+## modular using Blueprint
+from app.modules.mod_blog.views import mod as blogModule
+app.register_blueprint(blogModule)
